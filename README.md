@@ -68,15 +68,6 @@ Each timestep generates a separate flood depth raster and visualization frame.
 
 ---
 
-## 🖼️ Visualization Outputs
-
-### Flood Progression Animation
-
-![Flood Simulation](processing/flood_simulation.gif)
-
-The animation shows **frame‑by‑frame flood progression** as rainfall duration increases from 20 to 60 minutes.
-
----
 
 ## 🌐 Frontend Visualization
 

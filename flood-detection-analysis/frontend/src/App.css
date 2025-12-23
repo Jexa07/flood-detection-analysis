@@ -1,0 +1,99 @@
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  font-family: system-ui, Arial, sans-serif;
+  background: #020617;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 320px;
+  background: #020617;
+  color: #f8fafc;
+  padding: 24px;
+  box-shadow: 6px 0 30px rgba(0,0,0,0.5);
+}
+
+.sidebar h2 {
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  font-size: 13px;
+  opacity: 0.65;
+  margin-bottom: 24px;
+}
+
+.section {
+  margin-bottom: 28px;
+}
+
+.section h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  accent-color: #7c3aed;
+}
+
+input[type="range"] {
+  width: 100%;
+  accent-color: #7c3aed;
+}
+
+.legend {
+  margin-top: 16px;
+}
+
+.gradient {
+  height: 12px;
+  border-radius: 6px;
+  background: linear-gradient(
+    to right,
+    #e0f2fe,
+    #7dd3fc,
+    #38bdf8,
+    #0ea5e9,
+    #2563eb
+  );
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+.map-frame {
+  flex: 1;
+  padding: 12px;
+}
+
+.map-frame > div {
+  height: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.05),
+    0 20px 40px rgba(0,0,0,0.6);
+}
+
+.leaflet-container {
+  background: #020617;
+}
+
+.leaflet-control-attribution {
+  display: none;
+}
